@@ -78,7 +78,7 @@ std::vector<std::string> split(const std::string& string, const std::string& del
     while (from < string.size()) {
         to = std::min(string.size(), string.find(delimiter, from));
         res.push_back(string.substr(from, to-from));
-        from = to + 1;
+        from = to + delimiter.size();
     }
 
     return res;
