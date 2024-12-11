@@ -1,3 +1,4 @@
+#include <cstdint>
 #include <cstdlib>
 #include <iostream>
 #include <string>
@@ -6,14 +7,20 @@
 
 void star_1(std::string file_name)
 {
-    int result { 0 };
+    uint64_t result { 0 };
+
+
+
     std::cout << "Solution for Star 1:\n";
     std::cout << result << '\n';
 }
 
 void star_2(std::string file_name)
 {
-    int result { 0 };
+    uint64_t result { 0 };
+
+
+
     std::cout << "Solution for Star 2:\n";
     std::cout << result << '\n';
 }
